@@ -141,7 +141,7 @@ img { display: block; max-width: 100%; }
   padding: 56px 34px 60px;
   overflow: hidden;
   background-color: var(--dark-bg); /* fallback until image loads */
-  background-image: url("../assets/hero/hero_section.jpg");
+  background-image: url("../assets/hero/hero_section.png");
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;

@@ -13,7 +13,7 @@ const data = {
   steps: [
     { n: "1", icon: "crosshair", title: "Find where the work is", body: "CrewDog identifies projects, awards and hiring activity worldwide." },
     { n: "2", icon: "users", title: "Find who is hiring", body: "Surface the companies, decision makers and recruitment contacts connected to the opportunity." },
-    { n: "3", icon: "handshake", title: "Win the recruitment work", body: "Approach the client, present candidates and earn the placement fee." },
+    { n: "3", icon: "handshake", title: "Win the recruitment work", body: "Build a global recruitment desk in your chosen vertical, with clients who value what you do." },
   ],
   finds: [
     { icon: "crosshair", label: "Projects and awards" },

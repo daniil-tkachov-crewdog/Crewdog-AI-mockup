@@ -90,29 +90,11 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid var(--hairline);
 }
 .brand { display: flex; align-items: center; gap: 10px; }
-
-/* ----- Image upload placeholders (mockup image slots) ----- */
-.imgslot {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border: 1.5px dashed #cfd1d4;
-  color: #a9acb1;
-  background: transparent;
-}
-.imgslot u { text-underline-offset: 2px; }
-.imgslot--logo {
+.brand__logo {
   width: 46px;
   height: 46px;
-  border-radius: 50%;
+  object-fit: contain;
   flex: 0 0 auto;
-}
-.imgslot--logo-sm { width: 42px; height: 42px; }
-.imgslot__logo-text {
-  font-size: 7.5px;
-  line-height: 1.25;
-  letter-spacing: 0.01em;
 }
 .brand__name {
   font-family: var(--font-display);
@@ -463,6 +445,12 @@ img { display: block; max-width: 100%; }
   gap: 24px;
 }
 .footer__brand { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.footer__logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
 .footer__name {
   font-family: var(--font-display);
   font-weight: 800;

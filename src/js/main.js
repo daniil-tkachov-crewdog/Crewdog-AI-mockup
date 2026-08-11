@@ -8,7 +8,7 @@ const data = {
     { icon: "globe", title: "Global demand", body: "Track oil and gas activity across major producing regions." },
     { icon: "radio-tower", title: "Find demand early", body: "Discover project awards, expansions and hiring signals before they become obvious." },
     { icon: "users", title: "Find the buyers", body: "Identify the companies and people behind the hiring so you can go direct." },
-    { icon: "pound-sterling", title: "Keep the fee", body: "Built for independent recruiters who want agency economics without the agency overhead." },
+    { icon: "trophy", title: "Get there before your bigger competitors", body: "Discover where in the world there is likely to be demand for your most placeable contractors." },
   ],
   steps: [
     { n: "1", icon: "crosshair", title: "Find where the work is", body: "CrewDog identifies projects, awards and hiring activity worldwide." },

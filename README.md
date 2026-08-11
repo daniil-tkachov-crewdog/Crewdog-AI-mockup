@@ -17,11 +17,12 @@ This is a design mockup — no backend. The search box and links are illustrativ
     ├── js/
     │   └── main.js                # Section data + rendering + light interactivity
     └── assets/
-        ├── logo/
-        │   └── crewdog-logo.png   # Brand logo (header + footer + favicon)
-        └── hero/
-            └── hero-composite.png # Hero section image
+        ├── logo/                  # drop the real logo here
+        └── hero/                  # drop the real hero composite here
 ```
+
+The logo and hero render as **empty upload placeholders** (matching the design),
+ready for real assets to be dropped into `src/assets/logo` and `src/assets/hero`.
 
 ## Running locally
 
@@ -43,4 +44,5 @@ Then visit http://localhost:8000.
   via CDN, so an internet connection is needed for those to render.
 - Repeating sections (features, steps, signals table, trust stats) are rendered
   from the `data` object in `src/js/main.js` — edit copy there in one place.
-- Swap the images in `src/assets/logo` and `src/assets/hero` to rebrand.
+- To add real imagery, place files in `src/assets/logo` / `src/assets/hero` and
+  replace the `.imgslot` placeholder markup in `index.html` with `<img>` tags.

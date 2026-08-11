@@ -90,12 +90,51 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid var(--hairline);
 }
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand__mark {
+
+/* ----- Image upload placeholders (mockup image slots) ----- */
+.imgslot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1.5px dashed #cfd1d4;
+  color: #a9acb1;
+  background: transparent;
+}
+.imgslot u { text-underline-offset: 2px; }
+.imgslot--logo {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  object-fit: cover;
-  background: #fff;
+  flex: 0 0 auto;
+}
+.imgslot--logo-sm { width: 42px; height: 42px; }
+.imgslot__logo-text {
+  font-size: 7.5px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
+.imgslot--hero {
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  border-color: #3a3d42;
+  padding: 24px;
+}
+.imgslot--hero .imgslot__icon { color: #6f7378; }
+.imgslot__text {
+  margin: 0;
+  max-width: 320px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #c3c6cb;
+}
+.imgslot__browse {
+  margin: 0;
+  font-size: 13px;
+  color: #9aa0a6;
 }
 .brand__name {
   font-family: var(--font-display);
@@ -426,13 +465,6 @@ img { display: block; max-width: 100%; }
   gap: 24px;
 }
 .footer__brand { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
-.footer__mark {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  object-fit: cover;
-  background: #fff;
-}
 .footer__name {
   font-family: var(--font-display);
   font-weight: 800;

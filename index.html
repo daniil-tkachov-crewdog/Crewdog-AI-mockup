@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CrewDog — Build a one person oil &amp; gas recruitment agency</title>
+  <meta name="description" content="CrewDog tracks oil and gas projects and hiring signals worldwide so independent recruiters can find demand, approach the right companies and build their own agency." />
+
+  <link rel="icon" type="image/png" href="./src/assets/logo/crewdog-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/styles.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- ============ HEADER ============ -->
+    <header class="header">
+      <div class="brand">
+        <img class="brand__mark" src="./src/assets/logo/crewdog-logo.png" alt="CrewDog logo" />
+        <div>
+          <div class="brand__name">CrewDog</div>
+          <div class="brand__tag">Intelligence. Connections. Results.</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#why" class="navlink">Why CrewDog</a>
+        <a href="#how" class="navlink">How It Works</a>
+        <a href="#who" class="navlink">Who It's For</a>
+        <a href="#resources" class="navlink">Resources</a>
+        <a href="#about" class="navlink">About Us</a>
+        <button class="btn btn--primary btn--sm">Login</button>
+      </nav>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="why">
+      <div class="hero__grid">
+        <div>
+          <h1 class="hero__title">
+            Build a one person<br />oil and gas<br /><span class="accent">recruitment agency.</span>
+          </h1>
+          <p class="hero__lead">One recruiter. One CrewDog. Global reach.</p>
+          <p class="hero__body">CrewDog tracks oil and gas projects and hiring signals worldwide so you can find demand, approach the right companies and build your own recruitment business without the overhead of a traditional agency.</p>
+          <div class="hero__actions">
+            <button class="btn btn--primary btn--lg">Build My Agency <span data-icon="arrow-right" data-size="19"></span></button>
+            <a href="#how" class="hero__play">
+              <span class="hero__play-ring"><span data-icon="play" data-size="14" data-fill="currentColor"></span></span>
+              <span class="hero__play-label">See how it works (2 min)</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero__media">
+          <img src="./src/assets/hero/hero-composite.png" alt="CrewDog dashboard on a laptop beside an offshore oil rig at sunset and a branded CrewDog mug" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURE ROW ============ -->
+    <section class="features" id="features"></section>
+
+    <!-- ============ HOW TO BUILD ============ -->
+    <section class="steps-section" id="how">
+      <h2 class="section-title">How to build a one person oil and gas recruitment agency</h2>
+      <div class="steps" id="steps"></div>
+    </section>
+
+    <!-- ============ SEE WHAT CREWDOG CAN FIND ============ -->
+    <section class="discover" id="who">
+      <div class="discover__panel">
+        <div class="discover__top">
+          <div>
+            <h2 class="discover__title">See what CrewDog can find</h2>
+            <p class="discover__sub">Real hiring signals. Real opportunities.</p>
+            <form class="search" id="search-form">
+              <input class="search__input" id="search-input" placeholder="Try a search: drilling projects hiring in the Middle East" />
+              <button type="submit" class="search__btn">Show me</button>
+            </form>
+            <p class="discover__note">No login required to explore public intelligence.</p>
+          </div>
+          <div class="finds" id="finds"></div>
+        </div>
+
+        <!-- TABLE CARD -->
+        <div class="signals">
+          <div class="signals__head">
+            <div class="signals__title">Latest Hiring Signals</div>
+            <a href="#" class="signals__link">View all hiring signals <span data-icon="arrow-right" data-size="15"></span></a>
+          </div>
+          <table class="signals__table">
+            <thead>
+              <tr>
+                <th>Project / Opportunity</th>
+                <th>Country</th>
+                <th>Discipline</th>
+                <th>Company</th>
+                <th>Project Stage</th>
+                <th>Signal</th>
+                <th>Reported</th>
+              </tr>
+            </thead>
+            <tbody id="signal-rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST / TESTIMONIAL BAND ============ -->
+    <section class="trust" id="resources">
+      <div class="trust__grid">
+        <div>
+          <h2 class="trust__heading">Thousands of independent recruiters use CrewDog to win work worldwide.</h2>
+          <div class="trust__stats" id="trust-stats"></div>
+        </div>
+        <div class="quote">
+          <div class="quote__mark">&ldquo;</div>
+          <p class="quote__text">CrewDog changed the way I work. I find the projects, speak to the hiring teams and place the right people. It's like having an entire research team behind me.</p>
+          <div class="quote__author">– Independent Recruiter, UAE</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer" id="about">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img class="footer__mark" src="./src/assets/logo/crewdog-logo.png" alt="CrewDog logo" />
+            <div class="footer__name">CrewDog</div>
+          </div>
+          <div class="footer__copy">© 2026 CrewDog. All rights reserved.</div>
+        </div>
+        <div>
+          <div class="footer__col-title">Product</div>
+          <div class="footer__links">
+            <a href="#" class="flink">Oil &amp; Gas Hiring Signals</a>
+            <a href="#" class="flink">Oil &amp; Gas Projects</a>
+            <a href="#" class="flink">Oil &amp; Gas Recruitment</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-title">Resources</div>
+          <div class="footer__links">
+            <a href="#" class="flink">Blog</a>
+            <a href="#" class="flink">Guides</a>
+            <a href="#" class="flink">Market Reports</a>
+            <a href="#" class="flink">Countries</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-title">Company</div>
+          <div class="footer__links">
+            <a href="#" class="flink">About Us</a>
+            <a href="#" class="flink">Contact Us</a>
+            <a href="#" class="flink">Privacy Policy</a>
+            <a href="#" class="flink">Terms of Use</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-title">Follow us</div>
+          <div class="socials">
+            <a href="#" class="social" aria-label="LinkedIn"><span data-icon="linkedin" data-size="17"></span></a>
+            <a href="#" class="social" aria-label="Twitter"><span data-icon="twitter" data-size="17"></span></a>
+            <a href="#" class="social" aria-label="YouTube"><span data-icon="youtube" data-size="17"></span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="./src/js/icons.js"></script>
+  <script src="./src/js/main.js"></script>
+</body>
+</html>
